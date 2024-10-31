@@ -80,6 +80,30 @@ table, th, td {
     text-decoration: none;
 }
 
+.bottom {
+    background-color: #000000;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  .contact li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+
 /* Responsive design */
 @media (max-width: 768px) {
     .middle {
@@ -110,3 +134,14 @@ table, th, td {
         align-items: center;
     }
 }
+
+  @media screen and (max-width: 768px) {
+    .bottom {
+        padding: 15px;
+    }
+  
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+  
